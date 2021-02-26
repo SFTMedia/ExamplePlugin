@@ -26,7 +26,6 @@ public class ExampleCommand implements CommandExecutor {
                 ItemMeta meta = item.getItemMeta();
                 meta.setDisplayName("Congratulations!");
                 item.setItemMeta(meta);
-                ItemStack[] items = new ItemStack[]{item};
                 inv.setItem(4,item);
                 // This cast is safe, as we already checked to make sure sender was a player.
                 ((Player)sender).openInventory(inv);
