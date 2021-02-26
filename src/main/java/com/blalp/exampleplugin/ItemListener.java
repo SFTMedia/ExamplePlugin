@@ -14,7 +14,6 @@ public class ItemListener implements Listener {
         // Since we made all of our inventories with our own CustomInvetoryHolder, we can just check the holder's type to see if the inventory is ours.
         if (e.getClickedInventory().getHolder() instanceof CustomInvetoryHolder) {
             e.setCancelled(true);
-            System.out.println("Canceled item movement");
         }
     }
 }
