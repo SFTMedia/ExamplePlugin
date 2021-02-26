@@ -3,7 +3,7 @@
 
 <groupId>com.blalp</groupId>
 <artifactId>exampleplugin</artifactId>
-<version>0.0.2-inventory</version>
+<version>0.0.3-inventory</version>
 <packaging>jar</packaging>
 
 <name>ExamplePlugin</name>
