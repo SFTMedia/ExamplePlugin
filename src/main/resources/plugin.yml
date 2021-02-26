@@ -6,3 +6,11 @@ author: blalp
 api-version: 1.16
 # The next line is not needed, but included to avoid a warning on some IDEs
 api: ["1", "16", "5"]
+
+commands:
+  examplecommand:
+    aliases: ["excommand"]
+    description: "This is an example command"
+    permission: "exampleplugin.group.run"
+    permission-message: You do not have <permission>
+    usage: "/<command>"
