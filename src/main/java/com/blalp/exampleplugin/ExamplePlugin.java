@@ -1,5 +1,7 @@
 package com.blalp.exampleplugin;
 
-public class ExamplePlugin {
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class ExamplePlugin extends JavaPlugin {
 
 }

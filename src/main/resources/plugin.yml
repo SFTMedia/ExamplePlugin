@@ -1,0 +1,8 @@
+main: com.blalp.exampleplugin.ExamplePlugin
+version: 0.0.1
+name: ExamplePlugin
+softdepend: []
+author: blalp
+api-version: 1.16
+# The next line is not needed, but included to avoid a warning on some IDEs
+api: ["1", "16", "5"]
