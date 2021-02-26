@@ -21,7 +21,7 @@ public class ExampleCommand implements CommandExecutor {
         if(sender.hasPermission("exampleplugin.group.run")) {
             // Some commands only make sense to run as a player
             if (sender instanceof Player) {
-                Inventory inv = Bukkit.getServer().createInventory(new CustomInvetoryHolder(),1,"My Custom Invetory");
+                Inventory inv = Bukkit.getServer().createInventory(new CustomInvetoryHolder(),1,"My Custom Inventory");
                 ItemStack item = new ItemStack(Material.DIAMOND);
                 ItemMeta meta = item.getItemMeta();
                 meta.setDisplayName("Congratulations!");
