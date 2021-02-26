@@ -1,5 +1,5 @@
 main: com.blalp.exampleplugin.ExamplePlugin
-version: 0.0.1-inventory
+version: 0.0.2-inventory
 name: ExamplePlugin
 softdepend: []
 author: blalp
